@@ -4,16 +4,17 @@ import styles from "./City.module.css";
 import { useParams } from "react-router-dom";
 import { useCities } from "../hooks/useCities";
 import { useEffect } from "react";
+import BackButton from "./BackButton";
 import Spinner from "./Spinner";
 
-const flagemojiToPNG = (flag) => {
-  var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
-    .map((char) => String.fromCharCode(char - 127397).toLowerCase())
-    .join("");
-  return (
-    <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
-  );
-};
+// const flagemojiToPNG = (flag) => {
+//   var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
+//     .map((char) => String.fromCharCode(char - 127397).toLowerCase())
+//     .join("");
+//   return (
+//     <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
+//   );
+// };
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -26,11 +27,14 @@ const formatDate = (date) =>
 function City() {
   //   // TEMP DATA
   const { id } = useParams();
-  const { getCity, currentCity, isLoading } = useCities();
+  const { getCity, currentCity, isLoading, flagemojiToPNG } = useCities();
 
-  useEffect(function () {
-    getCity(id);
-  }, []);
+  useEffect(
+    function () {
+      getCity(id);
+    },
+    [id]
+  );
 
   console.log(currentCity);
 
@@ -77,7 +81,9 @@ function City() {
         </a>
       </div>
 
-      <div>{/* <ButtonBack /> */}</div>
+      <div>
+        <BackButton />
+      </div>
     </div>
   );
 }
