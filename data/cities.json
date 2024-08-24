@@ -1,135 +1,39 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "id": "a2d2",
+      "cityName": "Bezirk Liezen",
+      "country": "Austria",
+      "emoji": "🇦🇹",
+      "date": "2024-08-24T08:06:31.063Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
+        "lat": "47.53203824675999",
+        "lng": "13.908691406250002"
+      }
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "id": "9764",
+      "cityName": "Sibiu",
+      "country": "Romania",
+      "emoji": "🇷🇴",
+      "date": "2024-08-24T08:06:36.798Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
+        "lat": "45.85941212790755",
+        "lng": "24.433593750000004"
+      }
     },
     {
-      "id": "4338",
+      "id": "6ae1",
       "cityName": "Indre",
       "country": "France",
       "emoji": "🇫🇷",
-      "date": "2024-08-23T13:09:07.181Z",
+      "date": "2024-08-24T11:03:37.999Z",
       "notes": "",
       "position": {
-        "lat": "46.5739667965278",
-        "lng": "1.9116210937500002"
-      }
-    },
-    {
-      "id": "a53a",
-      "cityName": "Gondiya Taluka",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-08-23T13:18:14.965Z",
-      "notes": "tum ho na yrr",
-      "position": {
-        "lat": "21.4121622297254",
-        "lng": "80.27709960937501"
-      }
-    },
-    {
-      "id": "87eb",
-      "cityName": "Gondiya Taluka",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-08-23T13:18:14.965Z",
-      "notes": "tum ho na yrr",
-      "position": {
-        "lat": "21.4121622297254",
-        "lng": "80.27709960937501"
-      }
-    },
-    {
-      "id": "6830",
-      "cityName": "Berasia Tahsil",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-08-23T13:27:42.070Z",
-      "notes": "",
-      "position": {
-        "lat": "23.684774166883756",
-        "lng": "77.56347656250001"
-      }
-    },
-    {
-      "id": "6d51",
-      "cityName": "Berasia Tahsil",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-08-23T13:27:42.070Z",
-      "notes": "",
-      "position": {
-        "lat": "23.684774166883756",
-        "lng": "77.56347656250001"
-      }
-    },
-    {
-      "id": "15a4",
-      "cityName": "Berasia Tahsil",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-08-23T13:27:42.070Z",
-      "notes": "",
-      "position": {
-        "lat": "23.684774166883756",
-        "lng": "77.56347656250001"
-      }
-    },
-    {
-      "id": "5139",
-      "cityName": "Jamai Tahsil",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-08-23T13:27:42.070Z",
-      "notes": "",
-      "position": {
-        "lat": "22.167057857886153",
-        "lng": "78.50830078125001"
-      }
-    },
-    {
-      "id": "da67",
-      "cityName": "Simga Tahsil",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-08-23T13:32:37.445Z",
-      "notes": "",
-      "position": {
-        "lat": "21.596150576461437",
-        "lng": "81.89208984375001"
+        "lat": "46.55886030311719",
+        "lng": "1.8017578125000002"
       }
     }
   ]

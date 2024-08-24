@@ -36,8 +36,6 @@ function City() {
     [id]
   );
 
-  console.log(currentCity);
-
   if (isLoading) return <Spinner />;
   // const { cityName, emoji, date, notes } = currentCity;
   // Provide default values while destructuring
