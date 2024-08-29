@@ -35,6 +35,30 @@
         "lat": "46.55886030311719",
         "lng": "1.8017578125000002"
       }
+    },
+    {
+      "id": "7785",
+      "cityName": "Volos Municipality",
+      "country": "Greece",
+      "emoji": "🇬🇷",
+      "date": "2024-08-28T21:39:24.426Z",
+      "notes": "",
+      "position": {
+        "lat": "39.36227892388502",
+        "lng": "23.002624511718754"
+      }
+    },
+    {
+      "id": "b37a",
+      "cityName": "London",
+      "country": "United Kingdom",
+      "emoji": "🇬🇧",
+      "date": "2024-08-28T21:40:20.966Z",
+      "notes": "",
+      "position": {
+        "lat": "51.49388470100065",
+        "lng": "0.02197265625"
+      }
     }
   ]
 }
